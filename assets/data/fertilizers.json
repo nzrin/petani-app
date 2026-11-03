@@ -1,0 +1,118 @@
+{
+  "catalog": "fertilizers",
+  "last_reviewed": "2026-09-23",
+  "products": [
+    {
+      "name": "Baja Cecair NPK Seimbang",
+      "primary_detail": "NPK 20-20-20",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Formulasi nutrien seimbang untuk peringkat pertumbuhan yang sesuai mengikut label pengilang."
+    },
+    {
+      "name": "Baja Cecair Nitrogen Tinggi",
+      "primary_detail": "NPK 15-5-5",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Formulasi dengan nitrogen lebih tinggi untuk pertumbuhan vegetatif mengikut keperluan tanaman."
+    },
+    {
+      "name": "Baja Cecair Pembungaan",
+      "primary_detail": "NPK 10-30-20",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Formulasi fosforus dan kalium lebih tinggi bagi fasa sesuai berdasarkan label pengilang."
+    },
+    {
+      "name": "Kalsium Boron Cecair",
+      "primary_detail": "Kalsium + Boron",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Suplemen unsur sekunder dan mikro; kadar penggunaan bergantung pada tanaman dan produk."
+    },
+    {
+      "name": "Magnesium Cecair",
+      "primary_detail": "Magnesium",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Suplemen magnesium untuk kegunaan yang disyorkan pada label dan berdasarkan keperluan tanaman."
+    },
+    {
+      "name": "Asid Humik Cecair",
+      "primary_detail": "Asid humik",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Penggalak tanah atau nutrien tambahan; semak kandungan dan kadar pada label pengilang."
+    },
+    {
+      "name": "Ekstrak Rumpai Laut",
+      "primary_detail": "Ekstrak rumpai laut",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Input berasaskan ekstrak rumpai laut untuk penggunaan foliar atau tanah mengikut label."
+    },
+    {
+      "name": "Hidrolisat Ikan",
+      "primary_detail": "Nutrien berasaskan ikan",
+      "secondary_detail": "Baja Cecair",
+      "category": "liquid",
+      "description": "Sumber nutrien organik cecair; ikut pencairan dan kekerapan penggunaan produk."
+    },
+    {
+      "name": "Baja Sebatian NPK Seimbang",
+      "primary_detail": "NPK 15-15-15",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Formulasi butiran seimbang untuk kegunaan umum berdasarkan keperluan tanaman dan tanah."
+    },
+    {
+      "name": "Baja Sebatian NPK + TE",
+      "primary_detail": "NPK 12-12-17-2 + TE",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Formulasi kalium lebih tinggi dengan magnesium dan unsur surih mengikut spesifikasi produk."
+    },
+    {
+      "name": "Baja Sebatian NPK Kalium Tinggi",
+      "primary_detail": "NPK 10-10-20",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Formulasi kalium lebih tinggi untuk fasa tanaman yang sesuai berdasarkan analisis keperluan."
+    },
+    {
+      "name": "Baja Pelepasan Terkawal",
+      "primary_detail": "NPK 14-14-14",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Butiran nutrien seimbang dengan pelepasan mengikut spesifikasi pengilang."
+    },
+    {
+      "name": "Urea",
+      "primary_detail": "46% Nitrogen",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Sumber nitrogen berkandungan tinggi; kadar aplikasi perlu disesuaikan dengan tanaman dan tanah."
+    },
+    {
+      "name": "Muriate of Potash",
+      "primary_detail": "MOP 60% K₂O",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Sumber kalium pekat; pertimbangkan sensitiviti tanaman terhadap klorida sebelum penggunaan."
+    },
+    {
+      "name": "Rock Phosphate",
+      "primary_detail": "Fosfat batuan",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Sumber fosforus dengan pelepasan perlahan; kesesuaian bergantung pada keadaan tanah."
+    },
+    {
+      "name": "Dolomit Pertanian",
+      "primary_detail": "Kalsium + Magnesium",
+      "secondary_detail": "Baja Butiran",
+      "category": "granular",
+      "description": "Bahan pengapuran yang membekalkan kalsium dan magnesium; gunakan berdasarkan ujian tanah."
+    }
+  ]
+}

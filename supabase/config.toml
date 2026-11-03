@@ -1,0 +1,9 @@
+[auth]
+site_url = "com.nazrinapp.petani://login-callback/"
+additional_redirect_urls = [
+  "com.nazrinapp.petani://login-callback/",
+  "https://petaniapp.nazrin.codes/confirmation",
+]
+
+[functions.delete-account]
+verify_jwt = true

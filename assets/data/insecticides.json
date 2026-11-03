@@ -1,0 +1,80 @@
+{
+  "catalog": "insecticides",
+  "source": "Jabatan Pertanian Malaysia - Senarai Racun Makhluk Perosak Berdaftar",
+  "source_url": "https://mymrl.doa.gov.my/Pesticides/4",
+  "last_reviewed": "2026-09-23",
+  "products": [
+    {
+      "name": "Produk berasaskan Abamectin",
+      "primary_detail": "Abamectin",
+      "secondary_detail": "Racun serangga dan hama",
+      "description": "Digunakan dalam produk berdaftar tertentu untuk serangga atau hama sasaran pada label."
+    },
+    {
+      "name": "Produk berasaskan Acetamiprid",
+      "primary_detail": "Acetamiprid",
+      "secondary_detail": "Racun serangga sistemik",
+      "description": "Bahan aktif sistemik untuk perosak tertentu; semak tanaman dan kadar aplikasi pada label."
+    },
+    {
+      "name": "Produk berasaskan Bifenthrin",
+      "primary_detail": "Bifenthrin",
+      "secondary_detail": "Racun serangga sentuhan",
+      "description": "Produk berdaftar berasaskan bahan aktif ini mesti digunakan untuk sasaran yang diluluskan sahaja."
+    },
+    {
+      "name": "Produk berasaskan Buprofezin",
+      "primary_detail": "Buprofezin",
+      "secondary_detail": "Pengawal tumbesaran serangga",
+      "description": "Pilihan khusus untuk perosak tertentu berdasarkan tanaman dan arahan label berdaftar."
+    },
+    {
+      "name": "Produk berasaskan Chlorantraniliprole",
+      "primary_detail": "Chlorantraniliprole",
+      "secondary_detail": "Racun serangga",
+      "description": "Terdapat dalam produk berdaftar untuk kawalan perosak sasaran tertentu."
+    },
+    {
+      "name": "Produk berasaskan Cypermethrin",
+      "primary_detail": "Cypermethrin",
+      "secondary_detail": "Racun serangga sentuhan",
+      "description": "Gunakan hanya pada tanaman, perosak dan kadar yang dinyatakan pada label produk."
+    },
+    {
+      "name": "Produk berasaskan Deltamethrin",
+      "primary_detail": "Deltamethrin",
+      "secondary_detail": "Racun serangga sentuhan",
+      "description": "Bahan aktif pyrethroid yang terdapat dalam produk berdaftar tertentu di Malaysia."
+    },
+    {
+      "name": "Produk berasaskan Diafenthiuron",
+      "primary_detail": "Diafenthiuron",
+      "secondary_detail": "Racun serangga dan hama",
+      "description": "Pilihan bahan aktif untuk sasaran tertentu mengikut skop penggunaan pada label."
+    },
+    {
+      "name": "Produk berasaskan Dinotefuran",
+      "primary_detail": "Dinotefuran",
+      "secondary_detail": "Racun serangga sistemik",
+      "description": "Bahan aktif sistemik dalam produk berdaftar bagi tanaman dan perosak tertentu."
+    },
+    {
+      "name": "Produk berasaskan Emamectin Benzoate",
+      "primary_detail": "Emamectin benzoate",
+      "secondary_detail": "Racun serangga",
+      "description": "Digunakan untuk perosak tertentu; ikut kadar, selang tuaian dan PPE pada label."
+    },
+    {
+      "name": "Produk berasaskan Imidacloprid",
+      "primary_detail": "Imidacloprid",
+      "secondary_detail": "Racun serangga sistemik",
+      "description": "Semak status pendaftaran semasa serta kesesuaian tanaman dan sasaran sebelum penggunaan."
+    },
+    {
+      "name": "Produk berasaskan Lambda-cyhalothrin",
+      "primary_detail": "Lambda-cyhalothrin",
+      "secondary_detail": "Racun serangga sentuhan",
+      "description": "Bahan aktif dalam produk berdaftar tertentu untuk kawalan perosak mengikut label."
+    }
+  ]
+}

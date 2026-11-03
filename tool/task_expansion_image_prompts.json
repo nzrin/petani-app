@@ -1,0 +1,52 @@
+{
+  "tool": "Built-in image_gen",
+  "references": [
+    "/Volumes/Development/App/Flutter/Petani/assets/images/tasks/fertilizing.png",
+    "/Volumes/Development/App/Flutter/Petani/assets/images/tasks/pruning.png"
+  ],
+  "export": "500 x 500 PNG, generated alpha preserved",
+  "assets": [
+    {
+      "code": "planting",
+      "label": "Menanam",
+      "path": "assets/images/tasks/planting.png",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are STYLE AND CHARACTER REFERENCES. Match their hand-painted cartoon illustration, warm saturated green/ochre palette, softly textured faceted shading and clean colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Full transparent background with real alpha. Small isolated organic soil patch only. No text, labels, watermark, border, card, buildings or scenery. Whole character and tools visible with small safe margins, compact composition, very clear action at a small task-card size. Action: Farmer kneeling and placing a young leafy seedling with a visible small root ball into a prepared planting hole with both gloved hands, a small trowel lying beside the hole. The seedling is being planted for the first time. No scattering seeds and no fertilizer bag."
+    },
+    {
+      "code": "bed_preparation",
+      "label": "Menyediakan Batas",
+      "path": "assets/images/tasks/bed_preparation.png",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are STYLE AND CHARACTER REFERENCES. Match their hand-painted cartoon illustration, warm saturated green/ochre palette, softly textured faceted shading and clean colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Full transparent background with real alpha. Small isolated organic soil patch only. No text, labels, watermark, border, card, buildings or scenery. Whole character and tools visible with small safe margins, compact composition, very clear action at a small task-card size. Action: Farmer standing bent forward using a garden hoe to shape loose brown earth into a low raised planting bed. A small neat raised ridge with soft sloping sides and shallow channel beside it, no plants yet. Clearly preparing the shape of the bed, no tractor."
+    },
+    {
+      "code": "support_installation",
+      "label": "Memasang Sokongan",
+      "path": "assets/images/tasks/support_installation.png",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are STYLE AND CHARACTER REFERENCES. Match their hand-painted cartoon illustration, warm saturated green/ochre palette, softly textured faceted shading and clean colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Full transparent background with real alpha. Small isolated organic soil patch only. No text, labels, watermark, border, card, buildings or scenery. Whole character and tools visible with small safe margins, compact composition, very clear action at a small task-card size. Action: Farmer crouching beside a young cucumber vine, using both gloved hands to tie soft green twine around a bamboo support and the plant. A small bamboo A-frame trellis and two broad cucumber leaves, supports fully visible. No pruning shears, no cutting."
+    },
+    {
+      "code": "mulching",
+      "label": "Memasang Sungkupan",
+      "path": "assets/images/tasks/mulching.png",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are STYLE AND CHARACTER REFERENCES. Match their hand-painted cartoon illustration, warm saturated green/ochre palette, softly textured faceted shading and clean colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Full transparent background with real alpha. Small isolated organic soil patch only. No text, labels, watermark, border, card, buildings or scenery. Whole character and tools visible with small safe margins, compact composition, very clear action at a small task-card size. Action: Farmer kneeling and carefully spreading a visible layer of golden dry straw mulch around the base of a leafy chilli seedling with both gloved hands. Clearly fibrous straw covering the surface of brown soil, a small loose pile of straw beside him. No fertilizer granules, no seed scattering."
+    },
+    {
+      "code": "manual_pollination",
+      "label": "Pendebungaan Manual",
+      "path": "assets/images/tasks/manual_pollination.png",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are STYLE AND CHARACTER REFERENCES. Match their hand-painted cartoon illustration, warm saturated green/ochre palette, softly textured faceted shading and clean colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Full transparent background with real alpha. Small isolated organic soil patch only. No text, labels, watermark, border, card, buildings or scenery. Whole character and tools visible with small safe margins, compact composition, very clear action at a small task-card size. Action: Farmer crouching beside a small rock melon vine, gently touching a small fine soft brush to the central stigma of an open yellow flower, other gloved hand holding the flower stem carefully. One small netted melon and rounded leaves make the crop recognizable. Close compact scene with visible pollination action, no spraying."
+    },
+    {
+      "code": "fruit_thinning",
+      "label": "Penjarangan Buah",
+      "path": "assets/images/tasks/fruit_thinning.png",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are STYLE AND CHARACTER REFERENCES. Match their hand-painted cartoon illustration, warm saturated green/ochre palette, softly textured faceted shading and clean colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Full transparent background with real alpha. Small isolated organic soil patch only. No text, labels, watermark, border, card, buildings or scenery. Whole character and tools visible with small safe margins, compact composition, very clear action at a small task-card size. Action: Farmer standing beside a short low durian tree branch within easy arm reach. Three small spiky green durian fruitlets clustered on the branch. He is using orange-handled pruning scissors to snip the slender stalk of one small fruitlet while his other gloved hand supports that fruitlet. Two healthy fruitlets remain attached. Clearly thinning young fruits, not cutting leaves or harvesting large ripe fruit. Compact branch and small organic soil patch."
+    },
+    {
+      "code": "vine_lifting",
+      "label": "Mengangkat Sulur",
+      "path": "assets/images/tasks/vine_lifting.png",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are STYLE AND CHARACTER REFERENCES. Match their hand-painted cartoon illustration, warm saturated green/ochre palette, softly textured faceted shading and clean colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Full transparent background with real alpha. Small isolated organic soil patch only. No text, labels, watermark, border, card, buildings or scenery. Whole character and tools visible with small safe margins, compact composition, very clear action at a small task-card size. Action: Farmer crouching beside a low sweet potato vine on a small raised soil ridge. Using both gloved hands to gently lift a long trailing leafy vine off the ground and guide it back onto the ridge. Distinct heart-shaped green leaves on a continuous thin flexible stem, a couple of tiny roots at vine nodes lifting clear of the earth. No harvested tubers, no digging and no cutting tools."
+    }
+  ]
+}

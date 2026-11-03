@@ -1,0 +1,5 @@
+# Copy to key.properties and supply real values locally. Never commit them.
+storePassword=REPLACE_WITH_STORE_PASSWORD
+keyPassword=REPLACE_WITH_KEY_PASSWORD
+keyAlias=REPLACE_WITH_KEY_ALIAS
+storeFile=/absolute/path/to/upload-keystore.jks

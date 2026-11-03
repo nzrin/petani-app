@@ -1,0 +1,392 @@
+{
+  "tool": "built-in image_gen",
+  "reference_images": {
+    "crops": [
+      "/Volumes/Development/App/Flutter/Petani/assets/images/crops/torch_ginger.png",
+      "/Volumes/Development/App/Flutter/Petani/assets/images/crops/ginger.png"
+    ],
+    "seeds": [
+      "/Volumes/Development/App/Flutter/Petani/assets/images/seeds/ginger_rhizome.png",
+      "/Volumes/Development/App/Flutter/Petani/assets/images/seeds/pineapple_fruit.png"
+    ]
+  },
+  "output_size": 500,
+  "jobs": [
+    {
+      "code": "corn",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact cluster of sweet corn (maize) stalks with long arching leaves, tassels and two recognizable yellow ears partly revealed in green husks. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "corn",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Two ripe golden sweetcorn ears, one partly peeled with green husks curling around it, visible orderly yellow kernels. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "durian",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact mature durian tree with a stout woody trunk, rounded leafy crown and a few unmistakable green spiky durian fruits hanging from sturdy branches. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "durian",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: One whole green spiky durian with short brown stem beside an opened section revealing rich yellow creamy durian flesh. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "watermelon",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A low sprawling watermelon vine with lobed leaves, curling tendrils, little yellow flowers and two round green watermelons with darker stripes. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "watermelon",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: One round green striped watermelon beside a thick triangular slice with juicy red flesh and a few black seeds. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "rock_melon",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact rock melon vine with rounded leaves, curly tendrils, yellow flowers and two round beige-green netted cantaloupes. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "rock_melon",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: One round beige netted cantaloupe with a short stem beside a wedge revealing orange flesh and a small central seed cavity. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "strawberry",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A low strawberry plant with clusters of three serrated leaflets, white five-petalled flowers and several red ripe strawberries hanging naturally. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "strawberry",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Three ripe red strawberries with tiny golden seeds and fresh green leafy caps, one cut half showing pale red flesh. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "chilli",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A leafy branching chilli pepper bush with narrow pointed leaves, small white flowers, and slim long red and green chilli peppers hanging downward. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "chilli",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A small group of long slender gently curved red chilli peppers with green stems and one green chilli pepper. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "cucumber",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact cucumber vine climbing a small simple bamboo support with broad leaves, curling tendrils, small yellow flowers and three elongated green cucumbers. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "cucumber",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Two long fresh green cucumbers with subtle bumpy skin beside two round cut slices showing pale green flesh and soft seeds. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "eggplant",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A leafy eggplant bush with broad softly lobed leaves, small violet flowers, and two long glossy purple aubergines hanging from green calyxes. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "eggplant",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Two elongated deep purple aubergines with green calyxes and short stems, gently curved and glossy in painterly shading. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "lime",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact key lime tree with a branching woody trunk, glossy small oval leaves, white blossoms and small round green limes. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "lime",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Two small round green key limes with gently textured rind, one cut half showing pale yellow-green citrus segments and a green leaf. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "pandan",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A lush pandan plant with long arching strap-shaped green leaves growing in a dense spiral rosette from the base. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "pandan",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A neat fresh bunch of long pandan leaves, folded once into a loose natural knot with long pointed green ends. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "lemongrass",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A dense lemongrass clump with many long fine arching grassy green leaves and visible pale green thickened stalk bases. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "lemongrass",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A small bundle of freshly harvested lemongrass stalks with pale cream bulbous bases, blush pink accents and long green tapered tops. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "tomato",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact tomato bush with serrated compound leaves, little yellow star flowers and clusters of round red and green tomatoes on the vines. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "tomato",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Three ripe red round tomatoes with green star-shaped calyxes, one cut half showing the juicy interior. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "turmeric",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A turmeric plant with broad green lance-shaped leaves and a small cluster of golden-brown rhizomes partially exposed at the base, one exposed root tip showing vivid orange flesh. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "turmeric",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact group of orange-brown turmeric rhizomes, short slender knobbly finger-like roots, with two cut pieces showing rich orange flesh. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "calamansi",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact calamansi citrus tree with branching woody trunk, glossy oval leaves and many small round green fruits with a few ripe orange fruits. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "calamansi",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Three small round calamansi citrus fruits, two green and one orange, alongside a cut half showing orange flesh and a small green leaf. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "kesum",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A lush Vietnamese coriander (Persicaria odorata, daun kesum) herb clump with reddish jointed stems and slender pointed lance-shaped green leaves, some with subtle dark maroon chevron markings. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "kesum",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A freshly cut small bunch of daun kesum (Persicaria odorata) leafy sprigs with reddish slender stems and narrow pointed green leaves, some subtle dark maroon chevron markings. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "cassava",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A compact cassava plant (Manihot esculenta) with upright woody branching stems, reddish petioles and distinctive palmate leaves of seven narrow smooth-edged lobes. A few thick tapered brown cassava roots are partially exposed at the soil base. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "cassava",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A few harvested tapered cassava tubers with rough brown bark-like skins, one cleanly cut across showing solid creamy white flesh with a thin pinkish inner rind. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "sweet_potato",
+      "kind": "crops",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: A low spreading sweet potato vine (Ipomoea batatas) with heart-shaped green leaves on trailing stems, one pale lavender funnel flower and a few reddish-purple tapered tubers partly exposed at the base. Clearly a low vine, not a woody cassava shrub. Show the complete growing plant on a small irregular organic oval patch of brown soil with a few tiny grass tufts, naturally uneven edges. NO square soil, NO rectangular tile, NO geometric slab or visible block sides. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    },
+    {
+      "code": "sweet_potato",
+      "kind": "seeds",
+      "prompt": "Use case: stylized-concept. Create one standalone square transparent PNG illustration asset for Petani's Malaysian farming app. Input images are STYLE REFERENCES ONLY. Match their warm hand-painted botanical watercolor/gouache style, finely textured brushwork, natural saturated greens, golden highlights, soft detailed shading and friendly illustrated realism. Subject: Three harvested sweet potato tubers with reddish-purple smooth skin, one cleanly cut open to show warm orange flesh. Tapered rounded roots, distinct from rough brown cassava. This is an isolated harvested produce icon like the reference seeds folder. NO soil, NO growing plant, NO container. Center the subject, fill about 88% of square frame with comfortable clear margin; entire silhouette visible. Genuine transparent alpha background, no backdrop, no checkerboard painted into image. No text, labels, border, watermark, people or tools."
+    }
+  ],
+  "saved_assets": [
+    {
+      "code": "corn",
+      "kind": "crops",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-14ce4842-800c-49c4-a5ba-57ad782d2fdb.png",
+      "path": "assets/images/crops/corn.png"
+    },
+    {
+      "code": "corn",
+      "kind": "seeds",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-eb3b450d-1252-4791-ae58-f55bde9fb257.png",
+      "path": "assets/images/seeds/corn.png"
+    },
+    {
+      "code": "durian",
+      "kind": "crops",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-f2a762de-c1bf-4b8f-8675-4628f1bf175e.png",
+      "path": "assets/images/crops/durian.png"
+    },
+    {
+      "code": "durian",
+      "kind": "seeds",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-75ee4b1b-d1e2-4fc3-a194-bbe28a80f596.png",
+      "path": "assets/images/seeds/durian.png"
+    },
+    {
+      "code": "cassava",
+      "kind": "crops",
+      "path": "assets/images/crops/cassava.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-a74bc605-ab4c-4f17-a0b4-328c798ddccd.png"
+    },
+    {
+      "code": "cassava",
+      "kind": "seeds",
+      "path": "assets/images/seeds/cassava.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-05f6f8b2-a1f1-45b1-84f4-399aa399dc28.png"
+    },
+    {
+      "code": "watermelon",
+      "kind": "crops",
+      "path": "assets/images/crops/watermelon.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-659c5cc6-e878-42ef-b722-7af25959a6e4.png"
+    },
+    {
+      "code": "watermelon",
+      "kind": "seeds",
+      "path": "assets/images/seeds/watermelon.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-a354353d-142c-4f48-ac76-6b7baca45530.png"
+    },
+    {
+      "code": "rock_melon",
+      "kind": "crops",
+      "path": "assets/images/crops/rock_melon.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-031337a1-5490-4c5e-8013-32ee2989e6ee.png"
+    },
+    {
+      "code": "rock_melon",
+      "kind": "seeds",
+      "path": "assets/images/seeds/rock_melon.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-5071b193-c109-4aef-b1ef-40c2605d46e6.png"
+    },
+    {
+      "code": "strawberry",
+      "kind": "crops",
+      "path": "assets/images/crops/strawberry.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-65cd4410-a17e-4af1-a15f-00298f80e4ea.png"
+    },
+    {
+      "code": "strawberry",
+      "kind": "seeds",
+      "path": "assets/images/seeds/strawberry.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-0afd6318-f07f-44ff-9096-44fb8ab090b8.png"
+    },
+    {
+      "code": "chilli",
+      "kind": "crops",
+      "path": "assets/images/crops/chilli.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-b6283883-a58c-4205-ae39-fc4967dc64a0.png"
+    },
+    {
+      "code": "chilli",
+      "kind": "seeds",
+      "path": "assets/images/seeds/chilli.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-448ff75d-28d6-4fa9-83e7-a2fb6d7da082.png"
+    },
+    {
+      "code": "cucumber",
+      "kind": "crops",
+      "path": "assets/images/crops/cucumber.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-4660f63a-7b06-4597-90c3-4509896de230.png"
+    },
+    {
+      "code": "cucumber",
+      "kind": "seeds",
+      "path": "assets/images/seeds/cucumber.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-eaaf23f4-b86f-42da-9f2c-514f607425c9.png"
+    },
+    {
+      "code": "eggplant",
+      "kind": "crops",
+      "path": "assets/images/crops/eggplant.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-c3739e45-eb24-4aab-a294-e54e4255cbe3.png"
+    },
+    {
+      "code": "eggplant",
+      "kind": "seeds",
+      "path": "assets/images/seeds/eggplant.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-0c88b140-3683-4664-a642-988c6b63b7e1.png"
+    },
+    {
+      "code": "lime",
+      "kind": "crops",
+      "path": "assets/images/crops/lime.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-0f7f66dc-4800-4ad1-8ce8-99b5c3e21ffc.png"
+    },
+    {
+      "code": "lime",
+      "kind": "seeds",
+      "path": "assets/images/seeds/lime.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-f379ae53-50a1-43b1-96b2-6dec94c07550.png"
+    },
+    {
+      "code": "pandan",
+      "kind": "crops",
+      "path": "assets/images/crops/pandan.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-ab0ca28e-e2c0-46ee-a01e-6706be4021f6.png"
+    },
+    {
+      "code": "pandan",
+      "kind": "seeds",
+      "path": "assets/images/seeds/pandan.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-e375c41c-9773-41eb-8f86-cf8c52e02d19.png"
+    },
+    {
+      "code": "lemongrass",
+      "kind": "crops",
+      "path": "assets/images/crops/lemongrass.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-5e3074e5-0bce-43bd-9fb7-9d0e2d37940f.png"
+    },
+    {
+      "code": "lemongrass",
+      "kind": "seeds",
+      "path": "assets/images/seeds/lemongrass.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-e9166e38-2191-4a5b-890c-13a6f7c13874.png"
+    },
+    {
+      "code": "tomato",
+      "kind": "crops",
+      "path": "assets/images/crops/tomato.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-9a9d9996-8a3d-4446-b3fa-f3b060ba86a5.png"
+    },
+    {
+      "code": "tomato",
+      "kind": "seeds",
+      "path": "assets/images/seeds/tomato.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-29a98359-961d-4efa-a33f-78097e86f62c.png"
+    },
+    {
+      "code": "turmeric",
+      "kind": "crops",
+      "path": "assets/images/crops/turmeric.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-377714d1-c573-4dfc-aa2f-a7d93b78fe57.png"
+    },
+    {
+      "code": "turmeric",
+      "kind": "seeds",
+      "path": "assets/images/seeds/turmeric.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-2577cc61-273b-49fb-aded-6317aa13a494.png"
+    },
+    {
+      "code": "calamansi",
+      "kind": "crops",
+      "path": "assets/images/crops/calamansi.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-66f86881-c1e8-4917-8cdb-3c515f57b85c.png"
+    },
+    {
+      "code": "calamansi",
+      "kind": "seeds",
+      "path": "assets/images/seeds/calamansi.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-78ad99d0-cdca-4cb5-b1b5-0aff7fd1f962.png"
+    },
+    {
+      "code": "kesum",
+      "kind": "crops",
+      "path": "assets/images/crops/kesum.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-e388daea-73e2-465f-9ac5-daaaf5b49386.png"
+    },
+    {
+      "code": "kesum",
+      "kind": "seeds",
+      "path": "assets/images/seeds/kesum.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-af31ded7-10ab-470f-8ee9-b66f7e1997b4.png"
+    },
+    {
+      "code": "sweet_potato",
+      "kind": "crops",
+      "path": "assets/images/crops/sweet_potato.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-dc3f50eb-26f3-4fbe-9431-b88cad1d82a3.png"
+    },
+    {
+      "code": "sweet_potato",
+      "kind": "seeds",
+      "path": "assets/images/seeds/sweet_potato.png",
+      "source": "/Users/nazrin/.codex/generated_images/01a16693-1cf4-7f32-ba30-016b73c909ea/exec-ed8c8630-e106-41b1-be0f-4b7937f599f9.png"
+    }
+  ]
+}

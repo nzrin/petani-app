@@ -1,0 +1,266 @@
+{
+  "reviewed_on": "2026-11-03",
+  "scope": "Pilihan tanaman dan varieti berasaskan sumber rasmi dan penerbitan penyelidikan; bukan senarai semua varieti Malaysia atau pengesahan lot benih/pembekal. Bunga Kantan dikelaskan mengikut warna bunga atas permintaan pengguna.",
+  "crops": [
+    {
+      "crop_code": "banana",
+      "authority": "Jabatan Pertanian Malaysia",
+      "basis": "Varieti dalam Skim Pengesahan Bahan Tanaman (SPBT)",
+      "source_url": "https://www.doa.gov.my/doa/resources/perkhidmatan/skim_pensijilan/SPBT/manual_SPBT_anak_benih_tanaman.pdf",
+      "additional_source": "https://www.doa.gov.my/doa/resources/perkhidmatan/skim_pensijilan/SPBT/senarai_varieti_nov2023.pdf",
+      "varieties": {
+        "MP1": "Awak",
+        "MP2": "Nangka",
+        "MP3": "Mas",
+        "MP4": "Berangan",
+        "MP5": "Nipah",
+        "MP12": "Lang",
+        "MP14": "Cavendish"
+      },
+      "row_term": "Baris",
+      "row_source": "https://epengembangan.doa.gov.my/tanaman/pisang/"
+    },
+    {
+      "crop_code": "oil_palm",
+      "authority": "Lembaga Minyak Sawit Malaysia (MPOB)",
+      "basis": "Jenis bahan tanaman komersial Tenera, kacukan Dura x Pisifera. DxP bukan jenama benih atau nombor pendaftaran varieti.",
+      "source_url": "https://tot.mpob.gov.my/2020/02/18/mis-no-60-elaeis-oleifera-palm-for-the-pharmaceutical-industry/",
+      "varieties": {
+        "DxP": "Tenera"
+      },
+      "row_term": "Baris",
+      "row_source": "https://opb.mpob.gov.my/transforming-oil-palm-plantation-for-forage-and-livestock-integration/"
+    },
+    {
+      "crop_code": "rubber_tree",
+      "authority": "RISDA / Lembaga Getah Malaysia (LGM)",
+      "basis": "Pilihan klon Kumpulan 1. Klon Kumpulan 2 tidak dimasukkan dalam pilihan awal ini.",
+      "source_url": "https://helpdesk.risda.gov.my/support/solutions/articles/1060000015007-pengesyoran-klon-benih-getah-apakah-klon-benih-getah-yang-dibekalkan-oleh-risda-",
+      "additional_source": "https://www.parlimen.gov.my/files/jindex/pdf/JLDN24072024.pdf",
+      "varieties": {
+        "RRIM 928": "RRIM 928",
+        "RRIM 2001": "RRIM 2001",
+        "RRIM 2002": "RRIM 2002",
+        "PB 260": "PB 260",
+        "PB 350": "PB 350"
+      },
+      "row_term": "Baris"
+    },
+    {
+      "crop_code": "ginger",
+      "authority": "Jabatan Pertanian Malaysia",
+      "basis": "Kultivar yang disyorkan dalam ePengembangan. Nama digunakan sebagai kunci aplikasi; bukan kod pendaftaran varieti atau dakwaan pensijilan SPBT.",
+      "source_url": "https://epengembangan.doa.gov.my/tanaman/herba/",
+      "varieties": {
+        "Bentong": "Bentong",
+        "China": "China",
+        "Tanjung Sepat": "Tanjung Sepat",
+        "Thailand": "Thailand",
+        "Tambunan": "Tambunan",
+        "Bara": "Bara"
+      },
+      "aliases": {
+        "Tanjung Sepat": "Halia Indonesia",
+        "Tambunan": "Halia Sabah"
+      },
+      "row_term": "Batas",
+      "row_basis": "Penanaman atas tanah; sistem fertigasi polibeg menggunakan barisan dan belum menjadi pilihan sistem berasingan dalam aplikasi.",
+      "row_source": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/pakej_teknologi/herba_rempahratus/pt_halia_2008.pdf"
+    },
+    {
+      "crop_code": "rice",
+      "authority": "MARDI / Kementerian Pertanian dan Keterjaminan Makanan",
+      "basis": "Pilihan varieti padi yang diisytiharkan dalam sumber MARDI/KPKM. Nama dan kod varieti tidak mengesahkan lot benih atau kesesuaian semua lokaliti.",
+      "source_url": "https://www.mardi.gov.my/ms/penyelidikan/padi-beras.html",
+      "additional_source": "https://www.kpkm.gov.my/images/06-informasi/kenyataan-media/2021/SIARAN_MEDIA_MAFI_VARIETI_BENIH_PADI_20_NOVEMBER_2021-min.pdf",
+      "varieties": {
+        "MR 333": "Menora",
+        "MR 326": "Kesidang",
+        "MR 315": "Seri Waja",
+        "MR 307": "MARDI Sebernas 307",
+        "MR 303": "MARDI Sempadan 303",
+        "MR 297": "MARDI Siraj 297",
+        "MR 269": "MR 269",
+        "MR 219": "MR 219",
+        "MR 220 CL2": "MR 220 CL2",
+        "MR CL3": "MR CL3",
+        "MR CL4": "MR CL4",
+        "MRQ 76": "MRQ 76",
+        "MRQ 104": "Kembang Sari"
+      },
+      "row_term": "Petak",
+      "row_source": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/pakej_teknologi/padi/pt_padi_2008.pdf",
+      "task_source": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/pakej_teknologi/padi/rice_check_padi_2022.pdf",
+      "new_tasks": [
+        "Membajak",
+        "Menabur Benih"
+      ]
+    },
+    {
+      "crop_code": "torch_ginger",
+      "authority": "Sains Malaysiana / Universiti Putra Malaysia",
+      "basis": "Bentuk warna bunga Etlingera elatior: merah jambu, merah dan putih. Nama ialah kategori warna untuk rekod tanaman, bukan kod pendaftaran varieti atau dakwaan pensijilan.",
+      "source_url": "https://www.ukm.my/jsm/pdf_files/SM-PDF-45-4-2016/01%20S.Y.%20Choon.pdf",
+      "additional_source": "https://prosea.prota4u.org/view.aspx?id=575",
+      "varieties": {
+        "Merah Jambu": "Merah Jambu",
+        "Merah": "Merah",
+        "Putih": "Putih"
+      },
+      "row_term": "Baris",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; bukan dakwaan syor rasmi jarak atau sistem penanaman.",
+      "legacy_value": "Belum dikenal pasti: dikekalkan hanya untuk rekod lama sehingga pengguna memilih warna sebenar."
+    },
+    {
+      "crop_code": "corn",
+      "authority": "Jabatan Pertanian Sarawak",
+      "basis": "Varieti jagung manis dalam panduan rasmi; nama bukan kod pendaftaran.",
+      "source_url": "https://doa.sarawak.gov.my/web/subpage/webpage_view/110",
+      "varieties": {
+        "Masmadu": "Masmadu",
+        "Hybrid No 5": "Hybrid No 5",
+        "Thai Super Sweet": "Thai Super Sweet"
+      },
+      "row_term": "Baris",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi."
+    },
+    {
+      "crop_code": "cassava",
+      "authority": "MARDI",
+      "basis": "Bahan tanaman ubi kayu yang disenaraikan BBShoppe MARDI.",
+      "source_url": "https://fms.mardi.gov.my/ms/?catid=2&id=95%3Abiji-benih-dan-bahan-tanaman-bbshoppe&view=article",
+      "varieties": {
+        "Sri Pontian": "Sri Pontian",
+        "Sri Kanji 1": "Sri Kanji 1",
+        "Sri Kanji 2": "Sri Kanji 2"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi."
+    },
+    {
+      "crop_code": "durian",
+      "authority": "Jabatan Pertanian Malaysia",
+      "basis": "Pilihan varieti dalam senarai SPBT Ogos 2025; alias dipaparkan untuk pengecaman.",
+      "source_url": "https://www.doa.gov.my/doa/resources/perkhidmatan/skim_pensijilan/SPBT/senarai_varieti_ogos2025.pdf",
+      "varieties": {
+        "D24": "D24",
+        "D99": "Kop Kecil",
+        "D160": "Buluh Bawah / Tekka",
+        "D168": "Hjh. Hasmah / IOI",
+        "D175": "Udang Merah",
+        "D188": "MDUR78",
+        "D189": "MDUR79",
+        "D190": "MDUR88",
+        "D197": "Raja Kunyit / Musang King",
+        "D200": "Ochee / Duri Hitam"
+      },
+      "row_term": "Baris",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi."
+    },
+    {
+      "crop_code": "watermelon",
+      "authority": "Jabatan Pertanian Malaysia",
+      "basis": "Kultivar dalam Pakej Teknologi Tembikai 2004; bukan senarai pasaran terkini atau pensijilan lot benih.",
+      "source_url": "https://www.doa.gov.my/doa/modules_resources/bookshelf/pt_buah_tembikai_2004/pt_tembikai_2004.pdf",
+      "varieties": {
+        "New Dragon": "New Dragon",
+        "Super Dragon": "Super Dragon",
+        "Flower Dragon": "Flower Dragon"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi."
+    },
+    {
+      "crop_code": "rock_melon",
+      "authority": "Jabatan Pertanian Malaysia",
+      "basis": "Pendaftaran varieti umum CM1, Rock Melon Glamour; bukan dakwaan pengesahan SPBT.",
+      "source_url": "https://www.doa.gov.my/doa/resources/perkhidmatan/khidmat_teknikal/senarai_varieti_tanaman_2015_2021.pdf",
+      "varieties": {
+        "CM1": "Glamour"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi."
+    },
+    {
+      "crop_code": "strawberry",
+      "authority": "MARDI",
+      "basis": "Varieti di Cameron Highlands yang didokumenkan dalam Buletin Teknologi MARDI 39 (2024), bukan pengesahan SPBT atau jaminan kesesuaian tanah rendah. Ejaan Monterrey mengikut penerbitan.",
+      "source_url": "https://ebuletin.mardi.gov.my/buletin/39/Hafiz.pdf",
+      "varieties": {
+        "Festival": "Festival",
+        "Camarosa": "Camarosa",
+        "Monterrey": "Monterrey",
+        "Sweet Sensation": "Sweet Sensation",
+        "Winter Star": "Winter Star",
+        "Albion": "Albion"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi."
+    },
+    {
+      "crop_code": "chilli",
+      "authority": "Jabatan Pertanian Malaysia / MARDI",
+      "basis": "Kultivar dalam ePengembangan serta Cili MARDI yang diisytiharkan 8 Disember 2024.",
+      "source_url": "https://epengembangan.doa.gov.my/tanaman/sayur-sayuran/cili/",
+      "varieties": {
+        "MC 11": "MC 11",
+        "MC 12": "MC 12",
+        "Bangi": "Bangi",
+        "Kulai": "Kulai",
+        "Cili MARDI": "Cili MARDI"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi.",
+      "additional_source": "https://www.mardi.gov.my/ms/?catid=14&id=238&view=article"
+    },
+    {
+      "crop_code": "cucumber",
+      "authority": "Jabatan Pertanian Malaysia",
+      "basis": "Kultivar disyorkan dalam Pakej Teknologi Timun 1997. MTi 2 ialah pengenalan kultivar Tangkak dalam sumber.",
+      "source_url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/pakej_teknologi/sayur/pt_timun_1997.pdf",
+      "varieties": {
+        "Simpang Pulai": "Simpang Pulai",
+        "MTi 2": "Tangkak"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi."
+    },
+    {
+      "crop_code": "eggplant",
+      "authority": "Jabatan Pertanian Malaysia / Jabatan Pertanian Sarawak / MARDI",
+      "basis": "Ping Tung Long dan ARC-BJ-105 dalam panduan rasmi; MTE 1 dan MTE 2 dalam senarai benih MARDI.",
+      "source_url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/pakej_teknologi/sayur/pt_terung_1997.pdf",
+      "varieties": {
+        "Ping Tung Long": "Ping Tung Long",
+        "ARC-BJ-105": "ARC-BJ-105",
+        "MTE 1": "Panjang",
+        "MTE 2": "Bulat"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman dalam aplikasi; Batas untuk tanaman atas tanah, Baris untuk jagung dan dusun. Bukan syor jarak tanaman atau sistem fertigasi.",
+      "additional_sources": [
+        "https://doa.sarawak.gov.my/web/subpage/webpage_view/122",
+        "https://fms.mardi.gov.my/ms/?catid=2&id=95%3Abiji-benih-dan-bahan-tanaman-bbshoppe&view=article"
+      ]
+    },
+    {
+      "crop_code": "sweet_potato",
+      "authority": "MARDI",
+      "basis": "Varieti dalam BBShoppe dan halaman penyelidikan tanaman industri MARDI; nama varieti bukan dakwaan pensijilan lot benih.",
+      "source_url": "https://www.mardi.gov.my/ms/penyelidikan/tanaman-industri.html",
+      "additional_source": "https://fms.mardi.gov.my/ms/?catid=2&id=95%3Abiji-benih-dan-bahan-tanaman-bbshoppe&view=article",
+      "varieties": {
+        "Gendut": "Gendut",
+        "Jalur Mas": "Jalur Mas",
+        "Telong": "Telong",
+        "Vitato": "Vitato",
+        "Anggun 1": "Anggun 1",
+        "Anggun 2": "Anggun 2",
+        "Anggun 3": "Anggun 3",
+        "Lembayung": "Lembayung"
+      },
+      "row_term": "Batas",
+      "row_basis": "Unit pengelompokan tanaman atas tanah dalam aplikasi."
+    }
+  ]
+}

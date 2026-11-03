@@ -1,0 +1,20 @@
+{
+  "tool": "Built-in image_gen",
+  "references": [
+    "assets/images/tasks/bed_cleaning.png",
+    "assets/images/tasks/fertilizing.png"
+  ],
+  "export": "500 x 500 PNG; generated alpha preserved with sips resizing",
+  "assets": [
+    {
+      "code": "ploughing",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are style and character references. Match exactly the existing hand-painted cartoon style, warm saturated green/ochre palette, softly textured faceted shading and clear colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Fully transparent background with real alpha; small isolated soil patch only, no text, labels, border, card, watermark or scenery. Whole character, equipment and patch visible with small safe margins, clear silhouette at tiny task-card size. Action: Farmer driving a compact green tractor with yellow canopy and wheel hubs, ploughing a small brown muddy paddy field patch. Rear plough attachment visibly turns the soil into furrows; view from rear three-quarter side so the plough and driver are clear. No front-loader bucket, no crops being crushed. A little reflective shallow muddy water around freshly tilled earth. Match the reference tractor and farmer design closely.",
+      "path": "assets/images/tasks/ploughing.png"
+    },
+    {
+      "code": "seed_sowing",
+      "prompt": "Use case: illustration-story. Generate ONE square task icon for Petani app. Input images are style and character references. Match exactly the existing hand-painted cartoon style, warm saturated green/ochre palette, softly textured faceted shading and clear colored outlines. Same adult farmer: straw hat with green band, navy-framed safety glasses, white mask, green long sleeve shirt, dark green pants, yellow gloves and navy rubber boots. Fully transparent background with real alpha; small isolated soil patch only, no text, labels, border, card, watermark or scenery. Whole character, equipment and patch visible with small safe margins, clear silhouette at tiny task-card size. Action: Farmer standing on a small damp muddy paddy soil patch, holding an open yellow seed bag at waist with one gloved hand and broadcasting clearly golden elongated rice seed grains in a visible arc from the other hand across the bare prepared soil. Some tiny rice sprouts at edge identify paddy. No fertilizer white granules, no watering can, no mature crop. Compact full-body scene matching reference farmer proportions.",
+      "path": "assets/images/tasks/seed_sowing.png"
+    }
+  ]
+}

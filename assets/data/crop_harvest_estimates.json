@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "last_reviewed": "2026-09-24",
+  "crops": [
+    {
+      "crop_code": "pineapple",
+      "estimate_days": 411,
+      "minimum_days": 365,
+      "maximum_days": 456,
+      "variety_estimate_days": {
+        "AC1": 365
+      },
+      "basis": "Anggaran titik tengah bagi peringkat pengeluaran hasil pada umur pokok 12 hingga 15 bulan, ditukar kepada 411 hari untuk pengiraan aplikasi. Varieti Moris menggunakan rujukan khusus penuaian pada bulan ke-12.",
+      "source_name": "Lembaga Perindustrian Nanas Malaysia (LPNM)",
+      "source_url": "https://www.mpib.gov.my/bantuan-insentif/",
+      "additional_sources": [
+        {
+          "scope": "AC1 - Moris",
+          "source_url": "https://www.mpib.gov.my/wp-content/uploads/2017/12/4-moris-gambut.pdf"
+        }
+      ]
+    },
+    {
+      "crop_code": "coconut",
+      "estimate_days": 1460,
+      "minimum_days": 1095,
+      "maximum_days": 1460,
+      "variety_estimate_days": {
+        "CN4": 1095,
+        "CN5": 1095,
+        "CN6": 1095,
+        "CN13": 1460,
+        "CN14": 1460,
+        "CN15": 1460
+      },
+      "basis": "Kelapa MRD, MYD dan Pandan mula berhasil selepas 3 tahun, manakala kelapa MATAG mula berhasil selepas 4 tahun. Nilai ditukar kepada 1,095 dan 1,460 hari untuk pengiraan aplikasi; varieti lain menggunakan anggaran lalai MATAG sehingga rujukan khusus ditambah.",
+      "source_name": "Jabatan Pertanian Malaysia",
+      "source_url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/laporan_tahunan/laporan_tahunan_DOA_2021.pdf"
+    }
+  ]
+}

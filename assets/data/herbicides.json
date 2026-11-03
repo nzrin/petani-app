@@ -1,0 +1,80 @@
+{
+  "catalog": "herbicides",
+  "source": "Jabatan Pertanian Malaysia - Senarai Racun Makhluk Perosak Berdaftar",
+  "source_url": "https://mymrl.doa.gov.my/Pesticides/3",
+  "last_reviewed": "2026-09-23",
+  "products": [
+    {
+      "name": "Produk berasaskan Glyphosate",
+      "primary_detail": "Glyphosate",
+      "secondary_detail": "Racun rumpai tidak selektif",
+      "description": "Digunakan dalam produk berdaftar tertentu; elakkan terkena tanaman utama dan ikut label."
+    },
+    {
+      "name": "Produk berasaskan Glufosinate Ammonium",
+      "primary_detail": "Glufosinate ammonium",
+      "secondary_detail": "Racun rumpai tidak selektif",
+      "description": "Pilihan kawalan rumpai sentuhan bagi kegunaan yang dinyatakan pada label produk."
+    },
+    {
+      "name": "Produk berasaskan 2,4-D",
+      "primary_detail": "2,4-D",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Bahan aktif untuk rumpai tertentu; semak tanaman, formulasi dan kadar pada label berdaftar."
+    },
+    {
+      "name": "Produk berasaskan Ametryn",
+      "primary_detail": "Ametryn",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Terdapat dalam produk berdaftar untuk tanaman dan kumpulan rumpai tertentu."
+    },
+    {
+      "name": "Produk berasaskan Atrazine",
+      "primary_detail": "Atrazine",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Gunakan hanya mengikut tanaman, sasaran dan langkah keselamatan pada label semasa."
+    },
+    {
+      "name": "Produk berasaskan Bensulfuron-methyl",
+      "primary_detail": "Bensulfuron-methyl",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Bahan aktif dalam produk berdaftar bagi kawalan rumpai tertentu."
+    },
+    {
+      "name": "Produk berasaskan Bentazone",
+      "primary_detail": "Bentazone",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Pilihan kawalan rumpai lebar tertentu berdasarkan arahan label produk."
+    },
+    {
+      "name": "Produk berasaskan Bispyribac Sodium",
+      "primary_detail": "Bispyribac sodium",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Bahan aktif untuk kegunaan tanaman tertentu; ikut masa dan kadar aplikasi pada label."
+    },
+    {
+      "name": "Produk berasaskan Clethodim",
+      "primary_detail": "Clethodim",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Digunakan untuk rumpai rumput tertentu dalam produk dan tanaman yang diluluskan."
+    },
+    {
+      "name": "Produk berasaskan Diuron",
+      "primary_detail": "Diuron",
+      "secondary_detail": "Racun rumpai",
+      "description": "Semak kesesuaian tanah, tanaman dan had penggunaan pada label produk berdaftar."
+    },
+    {
+      "name": "Produk berasaskan Metsulfuron-methyl",
+      "primary_detail": "Metsulfuron-methyl",
+      "secondary_detail": "Racun rumpai selektif",
+      "description": "Bahan aktif kadar rendah bagi rumpai tertentu; gunakan tepat mengikut label."
+    },
+    {
+      "name": "Produk berasaskan Pendimethalin",
+      "primary_detail": "Pendimethalin",
+      "secondary_detail": "Racun rumpai pra-cambah",
+      "description": "Pilihan kawalan awal rumpai bagi tanaman tertentu mengikut arahan produk berdaftar."
+    }
+  ]
+}

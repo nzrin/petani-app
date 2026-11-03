@@ -1,0 +1,80 @@
+{
+  "catalog": "fungicides",
+  "source": "Jabatan Pertanian Malaysia - Senarai Racun Makhluk Perosak Berdaftar",
+  "source_url": "https://mymrl.doa.gov.my/Pesticides/2",
+  "last_reviewed": "2026-09-23",
+  "products": [
+    {
+      "name": "Produk berasaskan Azoxystrobin",
+      "primary_detail": "Azoxystrobin",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Digunakan dalam produk berdaftar tertentu untuk mengawal penyakit kulat mengikut tanaman dan label produk."
+    },
+    {
+      "name": "Produk berasaskan Difenoconazole",
+      "primary_detail": "Difenoconazole",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Bahan aktif triazole yang terdapat dalam produk racun kulat berdaftar tertentu di Malaysia."
+    },
+    {
+      "name": "Produk berasaskan Tebuconazole",
+      "primary_detail": "Tebuconazole",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Pilihan bahan aktif untuk penyakit kulat tertentu; ikut tanaman, sasaran dan kadar pada label."
+    },
+    {
+      "name": "Produk berasaskan Propiconazole",
+      "primary_detail": "Propiconazole",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Terdapat dalam produk berdaftar untuk kegunaan tanaman dan penyakit yang dinyatakan pada label."
+    },
+    {
+      "name": "Produk berasaskan Hexaconazole",
+      "primary_detail": "Hexaconazole",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Gunakan hanya pada tanaman serta penyakit yang diluluskan dalam label produk berdaftar."
+    },
+    {
+      "name": "Produk berasaskan Tricyclazole",
+      "primary_detail": "Tricyclazole",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Bahan aktif yang tersenarai bagi kawalan penyakit kulat tertentu, termasuk kegunaan khusus tanaman."
+    },
+    {
+      "name": "Produk berasaskan Captan",
+      "primary_detail": "Captan",
+      "secondary_detail": "Racun kulat sentuhan",
+      "description": "Racun kulat perlindungan yang perlu digunakan mengikut tanaman dan arahan label berdaftar."
+    },
+    {
+      "name": "Produk berasaskan Chlorothalonil",
+      "primary_detail": "Chlorothalonil",
+      "secondary_detail": "Racun kulat sentuhan",
+      "description": "Bahan aktif perlindungan untuk penyakit tertentu; semak kegunaan berdaftar sebelum aplikasi."
+    },
+    {
+      "name": "Produk berasaskan Metalaxyl",
+      "primary_detail": "Metalaxyl",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Digunakan dalam formulasi tunggal atau campuran berdaftar bagi penyakit tertentu."
+    },
+    {
+      "name": "Produk berasaskan Dimethomorph",
+      "primary_detail": "Dimethomorph",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Pilihan kawalan penyakit oomycete tertentu berdasarkan tanaman dan label produk."
+    },
+    {
+      "name": "Produk berasaskan Fosetyl Aluminium",
+      "primary_detail": "Fosetyl aluminium",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Bahan aktif sistemik dalam produk berdaftar bagi kegunaan tanaman tertentu."
+    },
+    {
+      "name": "Produk berasaskan Pyraclostrobin",
+      "primary_detail": "Pyraclostrobin",
+      "secondary_detail": "Racun kulat sistemik",
+      "description": "Bahan aktif strobilurin yang perlu digunakan mengikut kadar dan selang masa pada label."
+    }
+  ]
+}
