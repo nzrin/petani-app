@@ -1,0 +1,12 @@
+{
+  "mode": "built-in imagegen",
+  "prompt": "Create a polished farming mobile-app EMPTY STATE illustration, using the attached reference for its composition and soft minimalist isometric 3D aesthetic. Output exactly 1000 x 1000 pixels as PNG with a real transparent alpha background. Replace the stack of papers in the center with a charming compact agricultural tractor in the same isometric perspective, facing diagonally toward the lower right. Tractor hood and fenders use muted app forest green #176B45, ivory cab roof, pale gray glazing, softly sculpted charcoal-gray wheels. Replace the diagonal pencil in the lower-left foreground with a recognizable agricultural hoe (cangkul), with a light wood handle and pale gray metal blade. Replace the magnifying glass in the lower-right foreground with a small gardening shovel/spade, wood handle and pale gray metal scoop. No paper, stationery, pencil, magnifying glass or text. Behind the tractor use a few simple very pale gray low-poly conical trees on the left and subtle pale gray abstract farm vegetation silhouettes on the right, inspired by the reference. Quiet, friendly, premium low-contrast palette: predominantly ivory and soft light gray with restrained green accents, matte clay-like surfaces, gentle ambient occlusion, soft diffuse lighting, crisp readable silhouettes at small sizes. Keep the composition compact and balanced, entire illustration centered within roughly 80% of the square canvas, generous transparent margins, no cropped elements. The tractor is the main focal point, tools clearly visible in front, background foliage secondary. No soil platform, no opaque rectangular backdrop, no checkerboard pattern, no typography, no logos, no watermark. Only subtle semitransparent contact shadows around objects. This is a standalone transparent app illustration, not a screenshot or device mockup.",
+  "reference": "/Users/nazrin/Desktop/Screenshots/Screenshot 2026-11-06 at 11.54.12 AM.png",
+  "output": "assets/images/empty_farm_tools_concept.png",
+  "export": {
+    "width": 1000,
+    "height": 1000,
+    "format": "PNG",
+    "transparent": true
+  }
+}

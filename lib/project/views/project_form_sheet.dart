@@ -5,6 +5,7 @@ import 'package:petani/project/controllers/project_form_controller.dart';
 import 'package:petani/project/models/project_form_data.dart';
 import 'package:petani/project/models/crop_row_terminology.dart';
 import 'package:petani/project/models/project_form_suggestions.dart';
+import 'package:petani/shared/models/crop_harvest_estimate.dart';
 import 'package:petani/shared/widgets/app_button.dart';
 import 'package:petani/shared/widgets/date_picker_sheet.dart';
 import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
@@ -673,6 +674,16 @@ class _ProjectDetailsStep extends StatelessWidget {
             key: const Key('open-planted-date-button'),
             label: _formatMalayDate(controller.plantedAt),
             onPressed: onSelectDate,
+          ),
+          const SizedBox(height: 8),
+          FutureBuilder<CropHarvestCatalog>(
+            future: CropHarvestCatalog.load(),
+            builder: (context, snapshot) => Text(
+              snapshot.data?[controller.cropCode]?.plantingDateHelp ??
+                  'Tarikh ini digunakan untuk mengira anggaran hasil pertama.',
+              key: const Key('harvest-planting-date-help'),
+              style: const TextStyle(fontSize: 12, color: Colors.black54),
+            ),
           ),
         ],
       ),

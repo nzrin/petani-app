@@ -1,8 +1,9 @@
 import 'package:petani/project/models/crop_variety_catalog.dart';
 import 'package:flutter/material.dart';
+import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
 import 'package:petani/shared/widgets/app_toast.dart';
 import 'package:flutter/services.dart';
-import 'package:petani/shared/widgets/isometric_tractor.dart';
+import 'package:petani/shared/widgets/empty_state_illustration.dart';
 import 'package:petani/core/database/app_database.dart';
 import 'package:petani/core/theme/app_theme.dart';
 import 'package:petani/project/controllers/plot_detail_controller.dart';
@@ -347,7 +348,9 @@ class _PlotDetailViewState extends State<PlotDetailView>
       isDismissible: true,
       isScrollControlled: true,
       backgroundColor: Colors.transparent,
-      builder: (_) => _MonthYearPickerSheet(initialMonth: _selectedTaskMonth),
+      builder: (_) => KeyboardInsetPadding(
+        child: _MonthYearPickerSheet(initialMonth: _selectedTaskMonth),
+      ),
     );
     if (!mounted || month == null) return;
     setState(() => _selectedTaskMonth = _monthStart(month));
@@ -489,7 +492,9 @@ class _PlotDetailViewState extends State<PlotDetailView>
       children: [
         _buildPlotHeader(context),
         const SizedBox(height: 54),
-        Center(child: IsometricTractor(key: const Key('empty-task-tractor'))),
+        Center(
+          child: EmptyStateIllustration(key: const Key('empty-task-tractor')),
+        ),
         Text(
           'Tiada Tugasan',
           textAlign: TextAlign.center,
@@ -717,7 +722,7 @@ class _PlotDetailViewState extends State<PlotDetailView>
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          IsometricTractor(key: const Key('empty-month-task-tractor')),
+          EmptyStateIllustration(key: const Key('empty-month-task-tractor')),
           Text(
             'Tiada Tugasan',
             textAlign: TextAlign.center,

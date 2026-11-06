@@ -34,7 +34,10 @@ class _IsometricTractorState extends State<IsometricTractor>
   final _seconds = ValueNotifier<double>(0);
   late final Ticker _ticker;
   double _resumedAt = 0;
+  int _lastFrame = -1;
   bool _visible = true;
+  bool _routeVisible = true;
+  bool _keyboardVisible = false;
   bool _reduceMotion = false;
   bool _foreground = true;
 
@@ -46,6 +49,11 @@ class _IsometricTractorState extends State<IsometricTractor>
         WidgetsBinding.instance.lifecycleState == null ||
         WidgetsBinding.instance.lifecycleState == AppLifecycleState.resumed;
     _ticker = createTicker((elapsed) {
+      // Decorative animation needs at most 30 paints/s, even on 120 Hz screens.
+      // Use elapsed time (not frame count) to preserve the tractor's speed.
+      final frame = elapsed.inMicroseconds * 30 ~/ 1000000;
+      if (frame == _lastFrame) return;
+      _lastFrame = frame;
       _seconds.value = _resumedAt + elapsed.inMicroseconds / 1000000;
     });
   }
@@ -54,6 +62,10 @@ class _IsometricTractorState extends State<IsometricTractor>
   void didChangeDependencies() {
     super.didChangeDependencies();
     _visible = TickerMode.valuesOf(context).enabled;
+    _routeVisible = ModalRoute.isCurrentOf(context) ?? true;
+    // Scaffold can remove viewInsets from its body after resizing it. Read the
+    // actual view so the animation still pauses while typing on those pages.
+    _keyboardVisible = View.of(context).viewInsets.bottom > 0;
     _reduceMotion = MediaQuery.disableAnimationsOf(context);
     _updatePlayback();
   }
@@ -64,10 +76,22 @@ class _IsometricTractorState extends State<IsometricTractor>
     _updatePlayback();
   }
 
+  @override
+  void didChangeMetrics() {
+    if (!mounted) return;
+    _keyboardVisible = View.of(context).viewInsets.bottom > 0;
+    _updatePlayback();
+  }
+
   void _updatePlayback() {
-    if (_visible && !_reduceMotion && _foreground) {
+    if (_visible &&
+        _routeVisible &&
+        !_keyboardVisible &&
+        !_reduceMotion &&
+        _foreground) {
       if (!_ticker.isActive) {
         _resumedAt = _seconds.value;
+        _lastFrame = -1;
         _ticker.start();
       }
     } else {

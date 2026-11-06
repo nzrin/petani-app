@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:petani/shared/widgets/app_toast.dart';
-import 'package:petani/shared/widgets/isometric_tractor.dart';
+import 'package:petani/shared/widgets/empty_state_illustration.dart';
 import 'package:petani/core/theme/app_theme.dart';
 import 'package:petani/project/controllers/project_controller.dart';
 import 'package:petani/project/models/project_record.dart';
@@ -508,7 +508,7 @@ class _EmptyProjectState extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          IsometricTractor(key: const Key('empty-project-tractor')),
+          EmptyStateIllustration(key: const Key('empty-project-tractor')),
           Text(
             'Tiada Projek',
             textAlign: TextAlign.center,

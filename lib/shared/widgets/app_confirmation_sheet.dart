@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
 import 'package:petani/core/theme/app_theme.dart';
 import 'package:petani/shared/widgets/app_button.dart';
 
@@ -16,12 +17,14 @@ Future<bool> showAppConfirmationSheet({
     isScrollControlled: true,
     useSafeArea: true,
     backgroundColor: Colors.transparent,
-    builder: (_) => AppConfirmationSheet(
-      imagePath: imagePath,
-      title: title,
-      description: description,
-      confirmLabel: confirmLabel,
-      confirmColor: confirmColor,
+    builder: (_) => KeyboardInsetPadding(
+      child: AppConfirmationSheet(
+        imagePath: imagePath,
+        title: title,
+        description: description,
+        confirmLabel: confirmLabel,
+        confirmColor: confirmColor,
+      ),
     ),
   );
   return result ?? false;

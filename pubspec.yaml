@@ -63,6 +63,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/images/empty_state_wall.png
     - assets/images/farmer_with_pump_sprayer.png
     - assets/images/farmer_plot_add.png
     - assets/images/farmer_task.png

@@ -599,13 +599,22 @@ class _Axle {
   const _Axle(this.x, this.z, this.radius);
   final double x, z, radius;
 
-  _V rotate(_V p, double distance) {
+  _AxleRotation rotation(double distance) => _AxleRotation(this, distance);
+}
+
+class _AxleRotation {
+  _AxleRotation(this.axle, double distance)
+    : c = math.cos(-distance / axle.radius),
+      s = math.sin(-distance / axle.radius);
+
+  final _Axle axle;
+  final double c, s;
+
+  _V rotate(_V p) {
     // Forward travel is +X; the contact patch moves backward relative to
     // the axle. Both tire sizes therefore share the same ground speed.
-    final angle = -distance / radius;
-    final c = math.cos(angle), s = math.sin(angle);
-    final dx = p.x - x, dz = p.z - z;
-    return _V(x + dx * c - dz * s, p.y, z + dx * s + dz * c);
+    final dx = p.x - axle.x, dz = p.z - axle.z;
+    return _V(axle.x + dx * c - dz * s, p.y, axle.z + dx * s + dz * c);
   }
 }
 
@@ -647,8 +656,8 @@ class _Surface {
   final Path? visibleRegion;
   final _WheelWobble? wobble;
 
-  _Surface at(double distance) => _Surface(
-    vertices.map((p) => axle!.rotate(p, distance)).toList(),
+  _Surface at(_AxleRotation rotation) => _Surface(
+    vertices.map(rotation.rotate).toList(),
     color,
     order,
     strokeWidth: strokeWidth,
@@ -882,11 +891,24 @@ class _TractorScene {
     );
     canvas.restore();
     final paint = Paint()..isAntiAlias = true;
-    final moving = _rotating.map((s) => s.at(distance)).toList()
-      ..sort((a, b) {
-        final depth = a.depth.compareTo(b.depth);
-        return depth == 0 ? a.order.compareTo(b.order) : depth;
-      });
+    // Each rotor/wheel shares one transform, instead of computing sin/cos for
+    // every vertex. This cache is frame-local and cannot grow across frames.
+    final rotations = <_Axle, _AxleRotation>{};
+    final moving =
+        _rotating
+            .map(
+              (s) => s.at(
+                rotations.putIfAbsent(
+                  s.axle!,
+                  () => s.axle!.rotation(distance),
+                ),
+              ),
+            )
+            .toList()
+          ..sort((a, b) {
+            final depth = a.depth.compareTo(b.depth);
+            return depth == 0 ? a.order.compareTo(b.order) : depth;
+          });
     // Merge moving geometry with the cached stationary mesh in depth order.
     var fixedIndex = 0, movingIndex = 0;
     while (fixedIndex < _stationary.length || movingIndex < moving.length) {

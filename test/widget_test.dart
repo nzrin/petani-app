@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:petani/shared/widgets/app_toast.dart';
-import 'package:petani/shared/widgets/isometric_tractor.dart';
+import 'package:petani/shared/widgets/empty_state_illustration.dart';
 import 'package:petani/core/config/feature_flags.dart';
 import 'package:petani/core/database/app_database.dart';
 import 'package:petani/core/models/task_notification_record.dart';
@@ -634,6 +634,20 @@ void main() {
       tester.getTopLeft(pineappleOverview).dy,
       lessThan(tester.getTopLeft(coconutOverview).dy),
     );
+    final harvestInfo = find.byKey(const Key('harvest-info-101'));
+    final infoTooltip = tester.widget<Tooltip>(
+      find.ancestor(of: harvestInfo, matching: find.byType(Tooltip)),
+    );
+    final frontBeforeInfoHold = tester.getTopLeft(pineappleOverview);
+    final infoHold = await tester.startGesture(tester.getCenter(harvestInfo));
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(milliseconds: 200));
+    expect(find.text(infoTooltip.message!), findsOneWidget);
+    await tester.pump(const Duration(seconds: 5));
+    expect(tester.getTopLeft(pineappleOverview), frontBeforeInfoHold);
+    await infoHold.up();
+    await tester.pumpAndSettle();
+    expect(find.text(infoTooltip.message!), findsNothing);
     await tester.pump(const Duration(seconds: 4));
     await tester.pump(const Duration(milliseconds: 100));
     final incomingOpacity = tester.widget<Opacity>(
@@ -1021,7 +1035,7 @@ void main() {
     expect(find.byKey(const Key('empty-project-tractor')), findsOneWidget);
     expect(
       tester.widget(find.byKey(const Key('empty-project-tractor'))),
-      isA<IsometricTractor>(),
+      isA<EmptyStateIllustration>(),
     );
     expect(
       tester

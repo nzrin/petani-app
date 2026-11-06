@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
 import 'package:petani/shared/widgets/app_toast.dart';
 import 'package:petani/core/theme/app_theme.dart';
 import 'package:petani/profile/models/notification_sound_option.dart';
@@ -16,8 +17,9 @@ Future<NotificationSoundOption?> showNotificationSoundPickerSheet({
     isScrollControlled: true,
     useSafeArea: false,
     backgroundColor: Colors.transparent,
-    builder: (_) =>
-        _NotificationSoundPickerSheet(selectedSoundId: selectedSoundId),
+    builder: (_) => KeyboardInsetPadding(
+      child: _NotificationSoundPickerSheet(selectedSoundId: selectedSoundId),
+    ),
   );
 }
 

@@ -47,6 +47,21 @@ void main() {
         .bottom;
     expect(keyboardBottom, initialBottom - 300);
     expect(descendantInset, 0);
+    final background = find.byKey(const Key('sheet-keyboard-background'));
+    final backgroundRect = tester.getRect(background);
+    expect(backgroundRect.top, keyboardBottom);
+    expect(backgroundRect.bottom, initialBottom);
+    expect(backgroundRect.width, 120);
+    expect(tester.widget<ColoredBox>(background).color, Colors.white);
+    expect(
+      find.ancestor(
+        of: background,
+        matching: find.byWidgetPredicate(
+          (widget) => widget is IgnorePointer && widget.ignoring,
+        ),
+      ),
+      findsOneWidget,
+    );
 
     tester.view.viewInsets = FakeViewPadding.zero;
     await tester.pump();
@@ -57,5 +72,6 @@ void main() {
           .bottom,
       initialBottom,
     );
+    expect(background, findsNothing);
   });
 }

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "last_reviewed": "2026-09-24",
+  "version": 2,
+  "last_reviewed": "2026-11-06",
   "crops": [
     {
       "crop_code": "pineapple",
@@ -18,7 +18,10 @@
           "scope": "AC1 - Moris",
           "source_url": "https://www.mpib.gov.my/wp-content/uploads/2017/12/4-moris-gambut.pdf"
         }
-      ]
+      ],
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok ditanam di ladang.",
+      "notes": "Anggaran hasil pertama sahaja; umur benih, varieti dan keadaan ladang boleh mengubah tarikh sebenar."
     },
     {
       "crop_code": "coconut",
@@ -35,7 +38,244 @@
       },
       "basis": "Kelapa MRD, MYD dan Pandan mula berhasil selepas 3 tahun, manakala kelapa MATAG mula berhasil selepas 4 tahun. Nilai ditukar kepada 1,095 dan 1,460 hari untuk pengiraan aplikasi; varieti lain menggunakan anggaran lalai MATAG sehingga rujukan khusus ditambah.",
       "source_name": "Jabatan Pertanian Malaysia",
-      "source_url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/laporan_tahunan/laporan_tahunan_DOA_2021.pdf"
+      "source_url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/laporan_tahunan/laporan_tahunan_DOA_2021.pdf",
+      "milestone": "first_yield",
+      "planting_date_help": "Gunakan tarikh anak pokok ditanam di ladang.",
+      "notes": "Anggaran hasil pertama sahaja; umur benih, varieti dan keadaan ladang boleh mengubah tarikh sebenar."
+    },
+    {
+      "crop_code": "banana",
+      "estimate_days": 365,
+      "minimum_days": 243,
+      "maximum_days": 395,
+      "variety_estimate_days": {
+        "MP3": 243,
+        "MP4": 365,
+        "MP14": 395
+      },
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Tandan pertama sahaja; tidak mengira pusingan sulur berikutnya. Anggaran umum tanaman digunakan jika tiada nilai khusus varieti. Cuaca dan pengurusan ladang mempengaruhi tuaian sebenar.",
+      "basis": "Berangan matang 12 bulan, Mas 8 bulan dan Cavendish 13 bulan selepas tanam (Jadual 6). Varieti lain menggunakan 12 bulan sebagai anggaran perancangan umum, bukan ukuran khusus varieti.",
+      "source_name": "Jabatan Pertanian Malaysia",
+      "source_url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/pakej_teknologi/buah/pt_pisang_2000.pdf"
+    },
+    {
+      "crop_code": "oil_palm",
+      "estimate_days": 913,
+      "minimum_days": 913,
+      "maximum_days": 913,
+      "variety_estimate_days": {},
+      "milestone": "first_yield",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Anggaran mula berbuah; kutipan tandan sebenar bergantung pada kematangan buah. Tidak mengira pusingan kutipan seterusnya.",
+      "basis": "Mula berbuah sekitar 30 bulan selepas pindah ke ladang. Digunakan sebagai penanda hasil pertama, bukan selang pusingan kutipan tandan.",
+      "source_name": "Edupalm",
+      "source_url": "https://edupalm.org.my/web/bm/titik-permulaan-sehingga-hasil/"
+    },
+    {
+      "crop_code": "rubber_tree",
+      "estimate_days": 2008,
+      "minimum_days": 1825,
+      "maximum_days": 2190,
+      "variety_estimate_days": {},
+      "milestone": "first_tapping",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Anggaran mula menoreh sahaja. Semak lilitan batang dan kematangan pokok sebelum membuka panel torehan.",
+      "basis": "Usia mula menoreh sekitar 5–6 tahun; titik tengah 5.5 tahun digunakan untuk perancangan. Kesediaan sebenar juga bergantung pada lilitan dan keadaan pokok.",
+      "source_name": "Suara RISDA",
+      "source_url": "https://www.suararisda.my/blog/teknik-penorehan-getah-yang-betul-04"
+    },
+    {
+      "crop_code": "ginger",
+      "estimate_days": 274,
+      "minimum_days": 274,
+      "maximum_days": 304,
+      "variety_estimate_days": {
+        "Bentong": 289
+      },
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh rizom ditanam di ladang.",
+      "notes": "Anggaran ini untuk halia tua; halia muda mempunyai tempoh tuaian lebih singkat.",
+      "basis": "Pakej Teknologi Halia 2008, halaman 10–11: halia tua dituai sekitar 9 bulan; Bentong 9–10 bulan. Halia muda 4.5–5 bulan tidak digunakan dalam kiraan ini.",
+      "source_name": "Jabatan Pertanian Malaysia",
+      "source_url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/pakej_teknologi/herba_rempahratus/pt_halia_2008.pdf"
+    },
+    {
+      "crop_code": "rice",
+      "estimate_days": 111,
+      "minimum_days": 99,
+      "maximum_days": 122,
+      "variety_estimate_days": {
+        "MR 219": 111,
+        "MR 333": 106,
+        "MR CL3": 99,
+        "MR CL4": 102,
+        "MRQ 104": 119
+      },
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh semaian atau tabur benih. Jika mencedung, gunakan tarikh semaian asal.",
+      "notes": "Kiraan bermula dari semaian/tabur benih. Varieti tanpa nilai khusus menggunakan anggaran umum 111 hari.",
+      "basis": "Anggaran umum menggunakan 111 hari lepas tabur (rujukan MR 219). MR 333: titik tengah 103–108 hari; MR CL3: 99 hari; MR CL4: 102 hari; MRQ 104: titik tengah 115–122 hari. Varieti lain menggunakan anggaran umum sehingga tempoh khusus disahkan.",
+      "source_name": "MARDI",
+      "source_url": "https://www.mardi.gov.my/ms/penyelidikan/padi-beras.html"
+    },
+    {
+      "crop_code": "torch_ginger",
+      "estimate_days": 274,
+      "minimum_days": 274,
+      "maximum_days": 274,
+      "variety_estimate_days": {},
+      "milestone": "first_flower",
+      "planting_date_help": "Gunakan tarikh rizom atau anak kantan ditanam di ladang.",
+      "notes": "Anggaran bunga pertama; warna bunga tidak diberikan tempoh berlainan tanpa data khusus.",
+      "basis": "MARDI menyatakan pokok kantan mula berbunga pada umur sekitar 9 bulan. Digunakan sebagai penanda pengeluaran bunga pertama.",
+      "source_name": "MARDI BBShoppe",
+      "source_url": "https://agroshoppe.mardi.gov.my/anak-pokok/kantan/"
+    },
+    {
+      "crop_code": "corn",
+      "estimate_days": 70,
+      "minimum_days": 65,
+      "maximum_days": 75,
+      "variety_estimate_days": {},
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh benih jagung ditanam terus di ladang.",
+      "notes": "Untuk jagung manis matang; bukan jagung muda (baby corn). Anggaran umum tanaman digunakan jika tiada nilai khusus varieti. Cuaca dan pengurusan ladang mempengaruhi tuaian sebenar.",
+      "basis": "Jagung manis dipungut sekitar 65–75 hari selepas penanaman; titik tengah 70 hari.",
+      "source_name": "Jabatan Pertanian Sarawak",
+      "source_url": "https://doa.sarawak.gov.my/web/subpage/webpage_view/110"
+    },
+    {
+      "crop_code": "cassava",
+      "estimate_days": 365,
+      "minimum_days": 274,
+      "maximum_days": 730,
+      "variety_estimate_days": {},
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh keratan ubi kayu ditanam di ladang.",
+      "notes": "Sasaran umum 12 bulan; julat rujukan luas (9–24 bulan). Sesuaikan dengan varieti dan tujuan pengeluaran.",
+      "basis": "Panduan Sarawak memberi julat umum 9–24 bulan mengikut varieti, tanah dan cuaca (sesetengah varieti lebih awal). Aplikasi memilih 12 bulan sebagai sasaran perancangan dalam julat tersebut; bukan tempoh khusus Sri Pontian atau Sri Kanji.",
+      "source_name": "Jabatan Pertanian Sarawak",
+      "source_url": "https://doa.sarawak.gov.my/web/attachment/show/?docid=TmJyeTZCQUtQZjFoZ1dzTTQraHI3QT09OjowVm0giYhJQbU7vO3Kv5kY"
+    },
+    {
+      "crop_code": "sweet_potato",
+      "estimate_days": 107,
+      "minimum_days": 91,
+      "maximum_days": 122,
+      "variety_estimate_days": {
+        "Gendut": 122
+      },
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh keratan keledek ditanam di ladang.",
+      "notes": "Anggaran umum tanaman digunakan jika tiada nilai khusus varieti. Cuaca dan pengurusan ladang mempengaruhi tuaian sebenar.",
+      "basis": "Kebanyakan keledek boleh dituai 3–4 bulan selepas tanam. Titik tengah 3.5 bulan digunakan; Gendut menggunakan tempoh 4 bulan dalam contoh pengeluaran sumber.",
+      "source_name": "Jabatan Pertanian Sarawak",
+      "source_url": "https://doa.sarawak.gov.my/web/subpage/webpage_view/117"
+    },
+    {
+      "crop_code": "durian",
+      "estimate_days": 2190,
+      "minimum_days": 1460,
+      "maximum_days": 2190,
+      "variety_estimate_days": {},
+      "milestone": "first_yield",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Untuk anak durian cantuman dan hasil pertama sahaja; bukan ramalan musim buah bagi pokok matang.",
+      "basis": "Durian cantuman lazimnya mula berhasil pada tahun keenam; sesetengah pokok pada tahun keempat atau kelima. Anak biji mengambil masa lebih lama dan tidak diliputi anggaran ini.",
+      "source_name": "Jabatan Pertanian Pulau Pinang",
+      "source_url": "https://jpn.penang.gov.my/index.php?id=64%3Adurian-&lang=ms&option=com_content&view=article"
+    },
+    {
+      "crop_code": "watermelon",
+      "estimate_days": 68,
+      "minimum_days": 60,
+      "maximum_days": 75,
+      "variety_estimate_days": {},
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Anggaran umum tanaman digunakan jika tiada nilai khusus varieti. Cuaca dan pengurusan ladang mempengaruhi tuaian sebenar.",
+      "basis": "Pakej Teknologi Tembikai 2004, halaman 13: 60–75 hari selepas diubah ke ladang; titik tengah dibundarkan kepada 68 hari.",
+      "source_name": "Jabatan Pertanian Malaysia",
+      "source_url": "https://www.doa.gov.my/doa/modules_resources/bookshelf/pt_buah_tembikai_2004/pt_tembikai_2004.pdf"
+    },
+    {
+      "crop_code": "rock_melon",
+      "estimate_days": 70,
+      "minimum_days": 70,
+      "maximum_days": 70,
+      "variety_estimate_days": {
+        "CM1": 70
+      },
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Rujukan Glamour di TKPM Serdang: 70 hari selepas pindah tanam; semak tanda kematangan buah.",
+      "basis": "Kajian Jumadi & Jamaludin (ASM Science Journal, 2020) menggunakan 30 buah Glamour dari TKPM Serdang yang dituai 70 hari selepas pindah tanam. Digunakan sebagai sasaran perancangan, bukan julat semua sistem tanaman.",
+      "source_name": "Jumadi & Jamaludin, Universiti Putra Malaysia",
+      "source_url": "https://www.researchgate.net/publication/340684920_Non-destructive_Measurement_of_Rock_Melon_Fruit_Properties_using_Electrical_Impedance_Spectroscopy_EIS_Technique"
+    },
+    {
+      "crop_code": "strawberry",
+      "estimate_days": 107,
+      "minimum_days": 91,
+      "maximum_days": 122,
+      "variety_estimate_days": {},
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok atau sulur ditanam di tempat pengeluaran.",
+      "notes": "Rujukan fertigasi iklim sejuk Cameron Highlands; prestasi di tanah rendah mungkin berbeza.",
+      "basis": "Pengalaman penanaman fertigasi di Cameron Highlands yang diterbitkan Blog Rasmi MARDI menyatakan tuaian selepas 3–4 bulan penanaman. Titik tengah 3.5 bulan ialah anggaran umum, bukan tempoh khusus setiap varieti.",
+      "source_name": "Blog Rasmi MARDI — pengalaman pengusaha Cameron Highlands",
+      "source_url": "https://blogmardi.wordpress.com/2016/05/03/tauke-strawberi-fertigasi-bekas-kakitangan-mardi-kini-mengusahakan-ladang-strawberi-di-cameron-highlands/"
+    },
+    {
+      "crop_code": "chilli",
+      "estimate_days": 56,
+      "minimum_days": 56,
+      "maximum_days": 56,
+      "variety_estimate_days": {},
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Kutipan pertama; tahap cili hijau atau merah serta varieti boleh mengubah tarikh sebenar.",
+      "basis": "Panduan tanaman cili di ladang: mula memetik 8 minggu selepas pindah tanam. Anggaran ini untuk kutipan pertama, bukan tamat musim pengeluaran.",
+      "source_name": "Jabatan Pertanian Sarawak",
+      "source_url": "https://doa.sarawak.gov.my/web/subpage/webpage_view/109"
+    },
+    {
+      "crop_code": "cucumber",
+      "estimate_days": 53,
+      "minimum_days": 49,
+      "maximum_days": 56,
+      "variety_estimate_days": {},
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Anggaran umum tanaman digunakan jika tiada nilai khusus varieti. Cuaca dan pengurusan ladang mempengaruhi tuaian sebenar.",
+      "basis": "Panduan Sarawak menyatakan 7–8 minggu selepas diubah ke ladang; titik tengah 52.5 hari dibundarkan kepada 53.",
+      "source_name": "Jabatan Pertanian Sarawak",
+      "source_url": "https://doa.sarawak.gov.my/web/subpage/webpage_view/123"
+    },
+    {
+      "crop_code": "eggplant",
+      "estimate_days": 39,
+      "minimum_days": 35,
+      "maximum_days": 42,
+      "variety_estimate_days": {
+        "ARC-BJ-105": 40
+      },
+      "milestone": "first_harvest",
+      "planting_date_help": "Gunakan tarikh anak pokok dipindahkan ke ladang, bukan tarikh semaian.",
+      "notes": "Anggaran mengandaikan anak benih berumur 6 minggu ketika dipindahkan. Anggaran umum tanaman digunakan jika tiada nilai khusus varieti. Cuaca dan pengurusan ladang mempengaruhi tuaian sebenar.",
+      "basis": "Panduan Pulau Pinang: kutipan 11–12 minggu selepas semaian, semaian 6 minggu sebelum penanaman. Anggaran aplikasi menolak 42 hari semaian: 35–42 hari selepas pindah tanam, titik tengah 39 hari. ARC-BJ-105: 40 hari selepas mengubah (panduan Sarawak).",
+      "source_name": "Jabatan Pertanian Pulau Pinang / Sarawak",
+      "source_url": "https://jpn.penang.gov.my/index.php?Itemid=52&id=78&lang=en&option=com_content&view=article",
+      "additional_sources": [
+        {
+          "scope": "ARC-BJ-105",
+          "source_url": "https://doa.sarawak.gov.my/web/subpage/webpage_view/122"
+        }
+      ]
     }
-  ]
+  ],
+  "scope": "Anggaran perancangan tuaian/hasil pertama dari tarikh asas yang dinyatakan; bukan jaminan kematangan atau jadual tuaian berulang. Varieti tanpa nilai khusus menggunakan anggaran umum tanaman.",
+  "day_conversion": "Bulan ditukar menggunakan 365/12 hari dan tahun menggunakan 365 hari, dibundarkan kepada hari terdekat. Nilai ini ialah anggaran, bukan bulan/tahun kalendar."
 }

@@ -872,14 +872,38 @@ class _OverviewCard extends StatelessWidget {
                     fontWeight: FontWeight.w800,
                   ),
                 ),
-                Text(
-                  daysToHarvest == null
-                      ? 'anggaran tuaian belum tersedia'
-                      : 'ke anggaran tuaian',
-                  style: const TextStyle(
-                    color: Color(0xFFD8E9E0),
-                    fontSize: 12,
-                  ),
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Flexible(
+                      child: Text(
+                        overview.harvestLabel,
+                        style: const TextStyle(
+                          color: Color(0xFFD8E9E0),
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 4),
+                    // The stack's pointer listener pauses both its timer and
+                    // active transition until this press is released/cancelled.
+                    Tooltip(
+                      message: overview.harvestExplanation,
+                      triggerMode: TooltipTriggerMode.longPress,
+                      showDuration: Duration.zero,
+                      child: SizedBox.square(
+                        key: ValueKey<String>(
+                          'harvest-info-${overview.plotId}',
+                        ),
+                        dimension: 28,
+                        child: const Icon(
+                          Icons.info_outline_rounded,
+                          size: 18,
+                          color: Color(0xFFD8E9E0),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
@@ -986,7 +1010,7 @@ class _UpcomingTaskPreview extends StatelessWidget {
           padding: EdgeInsets.fromLTRB(18, 6, 18, 18),
           child: Center(
             child: TaskEmptyState(
-              topSpacing: 30,
+              topSpacing: 5,
               description: 'Tugasan akan datang akan dipaparkan di sini.',
               illustrationKey: Key('empty-upcoming-task-tractor'),
             ),

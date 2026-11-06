@@ -611,7 +611,7 @@ void main() {
     expect(pineappleOverview.daysToHarvest, 363);
     final coconutOverview = plotOverviews.first;
     expect(coconutOverview.totalPlants, 0);
-    expect(coconutOverview.daysToHarvest, 0);
+    expect(coconutOverview.daysToHarvest, isNull);
     expect(coconutOverview.estimatedHarvestAt, isNull);
 
     final upcomingTasks = await homeRepository.getUpcomingTasks(
@@ -894,8 +894,8 @@ void main() {
       for (final id in plotIds) {
         final overview = overviews.singleWhere((plot) => plot.plotId == id);
         expect(overview.totalPlants, 20);
-        expect(overview.estimatedHarvestAt, isNull);
-        expect(overview.daysToHarvest, isNull);
+        expect(overview.estimatedHarvestAt, isNotNull);
+        expect(overview.daysToHarvest, isNotNull);
       }
     },
   );

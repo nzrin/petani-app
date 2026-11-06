@@ -1,54 +1,84 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:petani/shared/painters/isometric_tractor_painter.dart';
 import 'package:petani/shared/widgets/isometric_tractor.dart';
-import 'package:petani/shared/widgets/task_empty_state.dart';
 
 void main() {
-  testWidgets('empty-state canvas fits the art in wide and narrow slivers', (
+  ValueListenable<double> clock(WidgetTester tester) =>
+      (tester
+                  .widget<CustomPaint>(
+                    find.descendant(
+                      of: find.byType(IsometricTractor),
+                      matching: find.byType(CustomPaint),
+                    ),
+                  )
+                  .painter!
+              as IsometricTractorPainter)
+          .animation!;
+
+  testWidgets('tractor limits paints on high refresh rate displays', (
     tester,
   ) async {
-    for (final width in [320.0, 240.0]) {
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Center(
-            child: SizedBox(
-              width: width,
-              child: CustomScrollView(
-                slivers: [
-                  SliverFillRemaining(
-                    hasScrollBody: false,
-                    child: Center(
-                      child: TaskEmptyState(description: 'No tasks yet'),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-        ),
-      );
-      final illustration = tester.getRect(find.byType(IsometricTractor));
-      final canvas = tester.getRect(
-        find.descendant(
-          of: find.byType(IsometricTractor),
-          matching: find.byType(CustomPaint),
-        ),
-      );
-      final title = tester.getRect(find.text('Tiada Tugasan'));
-      expect(canvas.width, width);
-      expect(
-        canvas.height,
-        closeTo(width / IsometricTractorPainter.aspectRatio, .01),
-      );
-      expect(canvas.height, lessThan(width * .7));
-      expect(canvas.top - illustration.top, IsometricTractor.defaultTopSpacing);
-      expect(
-        title.top - canvas.bottom,
-        closeTo(IsometricTractor.bottomSpacing, .01),
-      );
-      expect(tester.takeException(), isNull);
+    await tester.pumpWidget(const MaterialApp(home: IsometricTractor()));
+    final animation = clock(tester);
+    var updates = 0;
+    void onFrame() => updates++;
+    animation.addListener(onFrame);
+    for (var i = 0; i < 120; i++) {
+      await tester.pump(const Duration(microseconds: 8334));
     }
+    expect(updates, inInclusiveRange(29, 31));
+    expect(animation.value, closeTo(1, .04));
+    animation.removeListener(onFrame);
+    await tester.pumpWidget(const SizedBox.shrink());
+  });
+
+  testWidgets('tractor pauses behind sheets and keyboards then resumes', (
+    tester,
+  ) async {
+    late BuildContext routeContext;
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Builder(
+          builder: (context) {
+            routeContext = context;
+            return const Scaffold(body: IsometricTractor());
+          },
+        ),
+      ),
+    );
+    final animation = clock(tester);
+    await tester.pump(const Duration(milliseconds: 100));
+    showModalBottomSheet<void>(
+      context: routeContext,
+      builder: (_) => const SizedBox(height: 150),
+    );
+    await tester.pumpAndSettle();
+    final paused = animation.value;
+    await tester.pump(const Duration(seconds: 2));
+    expect(animation.value, paused);
+    Navigator.of(routeContext).pop();
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400));
+    expect(animation.value, greaterThan(paused));
+
+    addTearDown(tester.view.resetViewInsets);
+    tester.view.viewInsets = const FakeViewPadding(bottom: 300);
+    await tester.pump();
+    final keyboardPaused = animation.value;
+    await tester.pump(const Duration(seconds: 1));
+    expect(animation.value, keyboardPaused);
+    tester.view.viewInsets = FakeViewPadding.zero;
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 100));
+    expect(animation.value, greaterThan(keyboardPaused));
+    await tester.pumpWidget(const SizedBox.shrink());
+    // Drain the frame that was already scheduled before the ticker disposed.
+    await tester.pump();
+    expect(tester.binding.transientCallbackCount, 0);
+    expect(tester.binding.hasScheduledFrame, isFalse);
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets(

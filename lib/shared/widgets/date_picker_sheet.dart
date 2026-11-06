@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
 import 'package:petani/core/theme/app_theme.dart';
 import 'package:petani/shared/widgets/app_button.dart';
 
@@ -69,10 +70,12 @@ Future<DateTime?> showAppDatePickerSheet({
     isScrollControlled: true,
     useSafeArea: false,
     backgroundColor: Colors.transparent,
-    builder: (_) => DatePickerSheet(
-      initialDate: initialDate,
-      title: title,
-      description: description,
+    builder: (_) => KeyboardInsetPadding(
+      child: DatePickerSheet(
+        initialDate: initialDate,
+        title: title,
+        description: description,
+      ),
     ),
   );
 }

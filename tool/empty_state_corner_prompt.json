@@ -1,0 +1,8 @@
+{
+  "mode": "built-in imagegen",
+  "prompt": "Use case: precise-object-edit.\nEdit this Petani empty-state illustration with one architectural correction: the wall on the RIGHT must be STRAIGHT and form a clear inside CORNER with the wall behind the farmer. Make two perpendicular flat plaster wall planes meeting along a straight vertical interior corner seam behind his pillow/upper body, so he is visibly relaxing against the corner of a room. The right wall recedes toward upper right in isometric perspective; its exposed top edge must be a straight diagonal and its outer end a straight vertical edge, NOT wavy or rounded. Keep the leftmost outer wall silhouette softly organic as in the reference, and preserve the organic wavy perimeter of the small floor patch. Use subtle difference in shading between the two ivory plaster wall planes to make their 90-degree intersection legible. Keep the walls modest in size.\nPreserve the exact farmer character, face, straw hat, glasses, mask, green clothing, yellow gloves, navy boots, crossed-leg reclined pose, cream pillow, smartphone, warm painted cartoon style, colors, and feet pointing southeast. Preserve the floor color and soft shadows. Do not obscure or crop the farmer. This is the same scene with a straight right wall and a believable room corner, not a redesigned character.\n1000 x 1000 PNG, genuine transparent alpha outside the isolated vignette, full scene contained with clear margins. No text, extra objects, checkerboard, full-canvas background or watermark.",
+  "reference": "assets/images/empty_state_wall.png",
+  "output": "assets/images/empty_state_corner.png",
+  "width": 1000,
+  "height": 1000
+}

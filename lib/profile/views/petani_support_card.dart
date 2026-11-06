@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
 import 'package:petani/shared/widgets/app_toast.dart';
 import 'package:flutter/services.dart';
 import 'package:gal/gal.dart';
@@ -443,10 +444,12 @@ class _PetaniSupportCardState extends State<PetaniSupportCard>
     useSafeArea: true,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
-    builder: (context) => _DonationQrSheet(
-      label: label,
-      qrAssetPath: qrAssetPath,
-      fileName: fileName,
+    builder: (context) => KeyboardInsetPadding(
+      child: _DonationQrSheet(
+        label: label,
+        qrAssetPath: qrAssetPath,
+        fileName: fileName,
+      ),
     ),
   );
 

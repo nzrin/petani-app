@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
 import 'package:petani/core/theme/app_theme.dart';
 import 'package:petani/profile/models/app_icon_option.dart';
 import 'package:petani/profile/services/app_icon_service.dart';
@@ -14,8 +15,10 @@ Future<AppIconOption?> showAppIconPickerSheet({
     isScrollControlled: true,
     useSafeArea: false,
     backgroundColor: Colors.transparent,
-    builder: (_) =>
-        AppIconPickerSheet(selectedIcon: selectedIcon, service: service),
+    builder: (_) => KeyboardInsetPadding(
+      backgroundColor: Theme.of(context).colorScheme.surface,
+      child: AppIconPickerSheet(selectedIcon: selectedIcon, service: service),
+    ),
   );
 }
 

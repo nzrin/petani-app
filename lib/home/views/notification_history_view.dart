@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:petani/shared/widgets/keyboard_inset_padding.dart';
 import 'package:petani/shared/widgets/app_toast.dart';
 import 'package:flutter/services.dart';
 import 'package:petani/core/models/task_notification_record.dart';
@@ -103,9 +104,11 @@ class _NotificationHistoryViewState extends State<NotificationHistoryView> {
     final action = await showModalBottomSheet<_NotificationListAction>(
       context: context,
       isDismissible: true,
+      isScrollControlled: true,
       useSafeArea: true,
       backgroundColor: Colors.transparent,
-      builder: (_) => const _NotificationOptionsSheet(),
+      builder: (_) =>
+          KeyboardInsetPadding(child: const _NotificationOptionsSheet()),
     );
     if (!mounted || action == null) return;
 

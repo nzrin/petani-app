@@ -1,6 +1,4 @@
-import 'dart:convert';
-
-import 'package:flutter/services.dart';
+import 'package:petani/shared/models/crop_harvest_estimate.dart';
 import 'package:petani/core/database/app_database.dart';
 import 'package:petani/home/models/plot_overview.dart';
 import 'package:petani/home/models/upcoming_task_record.dart';
@@ -23,7 +21,7 @@ class SqliteHomeRepository implements HomeRepository {
   @override
   Future<List<PlotOverview>> getPlotOverviews({DateTime? now}) async {
     final database = await _appDatabase.database;
-    final estimates = await _loadHarvestEstimates();
+    final estimates = await CropHarvestCatalog.load();
     final rows = await database.rawQuery('''
       SELECT
         plots.id AS plot_id,
@@ -47,7 +45,23 @@ class SqliteHomeRepository implements HomeRepository {
       LIMIT 5
       ''');
 
-    final today = _dateOnly(now ?? DateTime.now());
+    // Read varieties separately so the plant SUM is not multiplied by joins.
+    final varietiesByPlot = <int, List<String>>{};
+    if (rows.isNotEmpty) {
+      final ids = rows.map((row) => row['plot_id'] as int).toList();
+      final varieties = await database.query(
+        'plot_varieties',
+        columns: ['plot_id', 'variety_code'],
+        where: 'plot_id IN (${List.filled(ids.length, '?').join(', ')})',
+        whereArgs: ids,
+      );
+      for (final variety in varieties) {
+        varietiesByPlot
+            .putIfAbsent(variety['plot_id'] as int, () => [])
+            .add(variety['variety_code'] as String);
+      }
+    }
+    final today = now ?? DateTime.now();
     return rows
         .map((row) {
           final cropCode = row['crop_code'] as String;
@@ -57,14 +71,14 @@ class SqliteHomeRepository implements HomeRepository {
               ? null
               : DateTime.tryParse(plantedAtValue)?.toLocal();
           final totalPlants = row['total_plants'] as int? ?? 0;
-          final estimatedHarvestAt =
-              plantedAt == null || totalPlants == 0 || estimate == null
-              ? null
-              : _dateOnly(plantedAt).add(
-                  Duration(
-                    days: estimate.daysFor(row['variety_code'] as String?),
-                  ),
-                );
+          final varietyCodes =
+              varietiesByPlot[row['plot_id']] ??
+              [if (row['variety_code'] case final String code) code];
+          final estimatedHarvestAt = estimate?.harvestDate(
+            plantedAt: plantedAt,
+            totalPlants: totalPlants,
+            varietyCodes: varietyCodes,
+          );
 
           return PlotOverview(
             plotId: row['plot_id'] as int,
@@ -74,14 +88,12 @@ class SqliteHomeRepository implements HomeRepository {
             cropName: row['crop_name'] as String,
             imagePath: row['asset_path'] as String? ?? '',
             totalPlants: totalPlants,
-            daysToHarvest: estimate == null
-                ? null
-                : totalPlants == 0
-                ? 0
-                : estimatedHarvestAt
-                      ?.difference(today)
-                      .inDays
-                      .clamp(0, 1 << 31),
+            daysToHarvest: CropHarvestEstimate.remainingDays(
+              estimatedHarvestAt,
+              today,
+            ),
+            harvestEstimate: estimate,
+            hasMixedVarieties: varietyCodes.length > 1,
             estimatedHarvestAt: estimatedHarvestAt,
           );
         })
@@ -183,39 +195,6 @@ class SqliteHomeRepository implements HomeRepository {
           ),
         )
         .toList(growable: false);
-  }
-
-  Future<Map<String, _HarvestEstimate>> _loadHarvestEstimates() async {
-    final source = await rootBundle.loadString(
-      'assets/data/crop_harvest_estimates.json',
-    );
-    final document = jsonDecode(source) as Map<String, dynamic>;
-    final crops = document['crops'] as List<dynamic>? ?? const [];
-    return {
-      for (final value in crops)
-        if (value case final Map<String, dynamic> crop)
-          crop['crop_code'] as String: _HarvestEstimate(
-            estimateDays: crop['estimate_days'] as int,
-            varietyEstimateDays:
-                (crop['variety_estimate_days'] as Map<String, dynamic>? ??
-                        const {})
-                    .map((code, days) => MapEntry(code, days as int)),
-          ),
-    };
-  }
-}
-
-class _HarvestEstimate {
-  const _HarvestEstimate({
-    required this.estimateDays,
-    required this.varietyEstimateDays,
-  });
-
-  final int estimateDays;
-  final Map<String, int> varietyEstimateDays;
-
-  int daysFor(String? varietyCode) {
-    return varietyEstimateDays[varietyCode] ?? estimateDays;
   }
 }
 

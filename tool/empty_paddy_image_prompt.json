@@ -1,0 +1,10 @@
+{
+  "tool": "Built-in image_gen",
+  "references": [
+    "assets/images/empty_pineapple_farm.png",
+    "/Users/nazrin/Downloads/geometric-farm-scene-stockcake.jpg"
+  ],
+  "asset": "assets/images/empty_paddy_farm.png",
+  "export": "1000 x 1000 PNG with transparency",
+  "prompt": "Edit the first reference image (the green tractor pineapple diorama) into the revised Petani empty-state artwork. Use the second reference (the golden paddy field) for the crop's appearance and the isometric farm render style.\nReplace every pineapple plant with golden yellow paddy/rice plants like reference 2. Arrange the paddy clumps in a PERFECT REGULAR GRID: straight parallel rows and straight perpendicular columns, equal spacing, aligned in the soil plane under the isometric camera. No circular or radial planting pattern.\nChange the square soil slab into a truly CIRCULAR thick brown soil disk, a round island seen in isometric perspective with a smooth continuous curved rim and visible front soil thickness. No square corners, no polygon base.\nKeep ONE rich forest-green tractor, body base color #176B45, ivory roof, dark glass, black tires and green wheel hubs, similar to reference 1. Tractor points toward lower right.\nCRITICAL: leave a broad, straight, continuous bare-earth driving lane under the tractor and ALL THE WAY IN FRONT of its nose to the lower-right circular edge of the soil disk. The lane is at least the full width of the tractor including its wheels. The exit must open through the planted rows to the circular outer edge. No rice, no pineapple, no trees, no plants or obstacles anywhere directly ahead of the tractor on that lane. Paddy fills the sides and back in perfectly aligned grid rows.\nPreserve the polished miniature stylized 3D isometric appearance, soft warm daylight, charming proportions, detailed tidy plants. Entire circular base visible and centered on square canvas, balanced margins, subtle contact shadow.\nGenuinely transparent alpha background, not a blue backdrop or checkerboard. No text, no labels, no watermark, no people, no trees, no pineapple. Final asset is square PNG for 1000 x 1000 pixel export."
+}
